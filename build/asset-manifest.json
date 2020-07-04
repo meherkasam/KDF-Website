@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KDF-Website/static/css/main.5f361e03.chunk.css",
+    "main.js": "/KDF-Website/static/js/main.7bf1aa0d.chunk.js",
+    "main.js.map": "/KDF-Website/static/js/main.7bf1aa0d.chunk.js.map",
+    "runtime-main.js": "/KDF-Website/static/js/runtime-main.c5c4c8f2.js",
+    "runtime-main.js.map": "/KDF-Website/static/js/runtime-main.c5c4c8f2.js.map",
+    "static/js/2.02806a0f.chunk.js": "/KDF-Website/static/js/2.02806a0f.chunk.js",
+    "static/js/2.02806a0f.chunk.js.map": "/KDF-Website/static/js/2.02806a0f.chunk.js.map",
+    "index.html": "/KDF-Website/index.html",
+    "precache-manifest.775605e5c132fffd1048a9a10d8dd4ca.js": "/KDF-Website/precache-manifest.775605e5c132fffd1048a9a10d8dd4ca.js",
+    "service-worker.js": "/KDF-Website/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/KDF-Website/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.02806a0f.chunk.js.LICENSE.txt": "/KDF-Website/static/js/2.02806a0f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/KDF-Website/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5c4c8f2.js",
+    "static/js/2.02806a0f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7bf1aa0d.chunk.js"
+  ]
+}
