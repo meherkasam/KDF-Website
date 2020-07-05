@@ -4,8 +4,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Config from './pages/config';
 import './App.css';
+import Config from './pages/config';
+import Home from './pages/home';
 
 export default function App() {
   return (
@@ -19,13 +20,5 @@ export default function App() {
           </Route>
         </Switch>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
   );
 }
