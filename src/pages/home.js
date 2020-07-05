@@ -12,7 +12,7 @@ class Home extends Component {
         this.setState({ selectedFile: event.target.files[0] })
     }
 
-    uploadHandler = event => {
+    uploadHandler = async(event) => {
         const formData = new FormData()
         formData.append(
             'query_img',
@@ -21,7 +21,12 @@ class Home extends Component {
         )
 
         let endpoint = localStorage.getItem('endpoint')
-        axios.post(`${endpoint}/search`, formData)
+        try {
+            const response = await axios.post(`${endpoint}/search`, formData, { crossdomain: true })
+            console.log(response)
+        } catch (e) {
+            alert(e)
+        }
     }
 
     render() {
